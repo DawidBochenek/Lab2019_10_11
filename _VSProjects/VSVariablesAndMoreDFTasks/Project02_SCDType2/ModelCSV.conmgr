@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\ModelCSV.csv">
+      DTS:ConnectionString="D:\Users\dawid.bochenek\source\repos\Lab2019_10_11\_VSProjects\_data\ModelCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -20,7 +20,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductModelID"
-          DTS:DTSID="{DFBAAB0B-FD5D-44B1-843F-487B198BE11B}"
+          DTS:DTSID="{297A8F18-ADE5-4891-BE07-C83FDEAD0190}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -29,7 +29,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{F17B51C6-E6A2-4315-86AE-1AA6DBE6FC1F}"
+          DTS:DTSID="{F7E572B9-56CC-46D9-AD47-5FA41AA385D2}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

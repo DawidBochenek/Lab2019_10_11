@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\SubcategoryCSV.csv">
+      DTS:ConnectionString="D:\Users\dawid.bochenek\source\repos\Lab2019_10_11\_VSProjects\_data\SubcategoryCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -20,7 +20,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductSubcategoryID"
-          DTS:DTSID="{95D22DAF-6A37-44D2-BF55-4BCBBE891205}"
+          DTS:DTSID="{EB45930A-9883-4809-85A6-90FE9EFDC027}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -28,7 +28,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductCategoryID"
-          DTS:DTSID="{608591EA-8B8D-457E-AD5A-9D226452935D}"
+          DTS:DTSID="{A421A55B-7277-4E63-A0A3-658F5901841F}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{914022C9-C9B5-45DB-9DB6-FE4BD7D7F628}"
+          DTS:DTSID="{7CEBDE65-79A1-437D-9578-B3E3191FDC08}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

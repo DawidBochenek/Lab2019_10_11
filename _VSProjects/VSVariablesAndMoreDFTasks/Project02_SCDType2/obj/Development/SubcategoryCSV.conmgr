@@ -1,7 +1,7 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="CategoryCSV"
-  DTS:DTSID="{ADC991E0-2D9A-4927-B516-D8D2677632B9}"
+  DTS:ObjectName="SubcategoryCSV"
+  DTS:DTSID="{BE94F16B-3ED0-4450-BE18-1350980780B7}"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
     <DTS:ConnectionManager
@@ -12,24 +12,32 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="D:\Users\dawid.bochenek\source\repos\Lab2019_10_11\_VSProjects\_data\CategoryCSV.csv">
+      DTS:ConnectionString="D:\Users\dawid.bochenek\source\repos\Lab2019_10_11\_VSProjects\_data\SubcategoryCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
           DTS:DataType="3"
           DTS:TextQualified="True"
+          DTS:ObjectName="ProductSubcategoryID"
+          DTS:DTSID="{247ECC76-09CC-4CF5-9CB9-4FEE91976A72}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
           DTS:ObjectName="ProductCategoryID"
-          DTS:DTSID="{8080C569-EF92-4E7A-A298-33D403C1E64C}"
+          DTS:DTSID="{4DAECE48-6436-42B0-B1FB-566B46BE1853}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="50"
-          DTS:DataType="130"
+          DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{8A2E6B31-EF67-4FE3-B1F0-394A6F6C1F64}"
+          DTS:DTSID="{6F0A02C5-DBD9-4E95-93AE-A8BE98D744B7}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

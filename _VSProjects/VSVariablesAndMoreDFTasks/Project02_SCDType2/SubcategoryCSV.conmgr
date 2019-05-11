@@ -20,7 +20,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductSubcategoryID"
-          DTS:DTSID="{EB45930A-9883-4809-85A6-90FE9EFDC027}"
+          DTS:DTSID="{247ECC76-09CC-4CF5-9CB9-4FEE91976A72}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -28,16 +28,16 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductCategoryID"
-          DTS:DTSID="{A421A55B-7277-4E63-A0A3-658F5901841F}"
+          DTS:DTSID="{4DAECE48-6436-42B0-B1FB-566B46BE1853}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
-          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="50"
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{7CEBDE65-79A1-437D-9578-B3E3191FDC08}"
+          DTS:DTSID="{6F0A02C5-DBD9-4E95-93AE-A8BE98D744B7}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

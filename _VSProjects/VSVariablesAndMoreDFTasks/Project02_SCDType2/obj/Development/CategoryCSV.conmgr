@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="CategoryCSV"
   DTS:DTSID="{ADC991E0-2D9A-4927-B516-D8D2677632B9}"
